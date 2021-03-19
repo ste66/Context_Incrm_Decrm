@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 
+// FOR THE 2ND (List)Project
+// import {MyProvider}from "./Context"
+// import App from "./App"
+
+// For the Class Project
+import App from "./Component/App"
+
 ReactDOM.render(
+  //  <MyProvider>
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App /> 
+  </React.StrictMode>
+//  </MyProvider>
+,
+
+
   document.getElementById('root')
 );
 
